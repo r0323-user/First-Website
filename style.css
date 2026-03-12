@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy'; 
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    /* background-color: #fff; */
+}
+
+#nav{
+    height:100px;
+    width: 100%;
+    /* background-color: orange; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+    padding: 0 30px;
+}
+
+#nav h4{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#nav i{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    font-weight: 500;
+}
+
+#center{
+    /* height: 40%; */
+    width: 100%;
+    /* background-color: orange; */
+    padding: 40px 80px;
+
+}
+
+#center h1{
+    font-size: 70px;
+    font-weight: 500;
+    line-height: 70px;
+   
+}
+
+#center-in{
+    height: 200px;
+    /* background-color: red; */
+    font-weight: 500;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#center-in p{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 25px;
+    font-size: 15px;
+}
+
+#right{
+        width: 20%;
+}
+
+.elem{
+    /* background-color: yellow; */
+    /* margin: 5px; */
+    padding: 20px 0;
+    border-top: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ 
+
+} 
+
+.elem i{
+    font-size: 25px;
+    font-weight: 500;
+    opacity: 0;
+
+}
+
+.elem a{
+    columns: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    color: black;
+
+
+}
+
+
+.elem:hover i{
+    opacity:1;
+}
+
+#bootom{
+    height: 35%;
+    width: 100%;
+    background-color: red;
+    background-image: url("./roberto-shumski-a1QPssvpxyI-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
